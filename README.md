@@ -79,7 +79,7 @@ pip install -r requirements.txt
 Ensure the CSV is located at:
 
 ```
-archive/cybersecurity_dataset.csv
+data/cybersecurity_dataset.csv
 ```
 
 ### 5. Run the dashboard
@@ -95,7 +95,7 @@ The app will open in your browser at `http://localhost:8501`.
 ## 📁 Project Structure
 
 ```
-├── archive/
+├── data/
 │   └── cybersecurity_dataset.csv          # Input dataset
 ├── MahiVerma_CybersecurityIncidentPrioritization.py  # Main app (Streamlit)
 ├── requirements.txt                        # Python dependencies
